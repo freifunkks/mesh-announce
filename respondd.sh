@@ -1,2 +1,2 @@
 #!/bin/bash
-/srv/mesh-announce/respondd.py -i bat0
+screen -S respondd -d -m /srv/mesh-announce/respondd.py -i bat0
